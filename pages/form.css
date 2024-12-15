@@ -1,0 +1,144 @@
+
+   body{
+    margin: 0%;
+    padding: 0%;
+   }
+   
+
+    header {
+        background-color: rgb(126, 83, 28);
+        height: 8%;
+        display: flex;
+        text-align: center;
+    
+    }
+    
+    .navbar {
+        width: 100%;
+        margin: 15px 40px;
+        font-weight: 800;
+    }
+    
+    .navbar nav ul li {
+        display: inline;
+        word-spacing: 5em;
+    }
+    
+    .navbar nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .clear{
+        clear: both;
+    }
+
+
+
+
+
+    .body {
+        background-color: rgb(187, 125, 44);
+        color: rgb(187, 125, 44); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .form-container {
+      background-color: rgba(131, 87, 30, 0.401); 
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      margin: 10% auto;
+    }
+
+    .form-container h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #FFF;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+      margin-left: 10px ;
+      margin-right: 10px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #332114;
+    }
+
+    .form-group input, .form-group select {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #FFF;
+      border-radius: 4px;
+      background-color: #332114;
+      color: #FFF;
+    }
+
+   
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      background-color: #ad64339e;
+      color: #332114;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .form-group button:hover {
+      background-color: #c5995b; 
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 10px;
+      color: #FFD9A5;
+    }
+
+
+
+    footer{
+        background-color: rgb(126, 83, 28);
+        text-align: center;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url(../img/images.jpeg);
+        color: beige;
+    }
+    
+    .donner{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .temps{
+        width: 46%;
+        margin: 5px;
+    }
+    
+    .Coordon{
+        margin: 5px;
+        width: 46%;
+    }
+    .Coordon a{
+        color: beige;
+        text-decoration: none;
+        height: 30%;
+    }
+    .Réseaux img{
+        width: 4%;
+        height: 4%;
+    }
+    .Réseaux{
+        margin-top: 10px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    
